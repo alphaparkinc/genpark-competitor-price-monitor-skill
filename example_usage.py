@@ -1,10 +1,6 @@
-﻿import sys
-from client import Client
+from client import PriceMonitorClient
 def main():
-    if hasattr(sys.stdout, 'reconfigure'):
-        sys.stdout.reconfigure(encoding='utf-8')
-    c = Client()
-    res = c.process("Test Input")
-    print(res)
+    c = PriceMonitorClient()
+    print(c.monitor_prices("SKU-001", 100.0, 125.0, [119.99, 122.50]))
 if __name__ == '__main__':
     main()
