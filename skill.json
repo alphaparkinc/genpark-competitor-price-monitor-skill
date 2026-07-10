@@ -1,17 +1,17 @@
-﻿{
-    "version":  "1.0.0",
-    "name":  "genpark-competitor-price-monitor-skill",
-    "outputs":  {
-                    "result_val":  {
-                                       "type":  "string"
-                                   }
-                },
-    "description":  "GenPark competitor prices scanning and margins monitoring skill.",
-    "inputs":  {
-                   "input_val":  {
-                                     "type":  "string"
-                                 }
-               },
-    "author":  "alphaparkinc",
-    "prompt":  "Coordinate genpark-competitor-price-monitor-skill operations using the input configurations."
+{
+  "version": "1.0.0",
+  "name": "genpark-competitor-price-monitor-skill",
+  "outputs": {
+    "result_val": {
+      "type": "string"
+    }
+  },
+  "description": "GenPark competitor prices scanning and margins monitoring skill.",
+  "inputs": {
+    "input_val": {
+      "type": "string"
+    }
+  },
+  "author": "genpark",
+  "prompt": "Coordinate genpark-competitor-price-monitor-skill operations using the input configurations."
 }
